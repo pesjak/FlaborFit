@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainBg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2ca5f5"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.applications.primoz.flaborfit.DetailsActivity">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Weight Lifting"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/mainImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/weight" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#20000000"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Mark it complete!"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:buttonTint="#FFF"
+            android:paddingLeft="150dp"
+            android:paddingRight="10dp"
+            android:text="Complete set 1"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:buttonTint="#FFF"
+            android:paddingLeft="150dp"
+            android:paddingRight="10dp"
+            android:text="Complete set 1"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:buttonTint="#FFF"
+            android:paddingLeft="150dp"
+            android:paddingRight="10dp"
+            android:text="Complete set 1"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:buttonTint="#FFF"
+            android:paddingLeft="150dp"
+            android:paddingRight="10dp"
+            android:text="Complete set 1"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:buttonTint="#FFF"
+            android:paddingLeft="150dp"
+            android:paddingRight="10dp"
+            android:text="Complete set 1"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
