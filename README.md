@@ -1,5 +1,5 @@
 # FlaborFit
-App where you can see how to transition from one activity to the other using intent. Made with course of Mark Price.
+App where you can see how to transition from one activity to the other using intent. How to use tint, custom drawables and more. Made with course of Mark Price.
 I added night mode for the app.
 
 
